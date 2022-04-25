@@ -1,0 +1,407 @@
+body {
+    padding-top: 3rem;
+    padding-bottom: 3rem;
+    color: #5a5a5a;
+  }
+  
+  .carousel {
+    margin-bottom: 4rem;
+  }
+  
+  .carousel-caption {
+    bottom: 3rem;
+    z-index: 10;
+  }
+  
+  .carousel-item {
+    height: 32rem;
+  }
+  
+  .carousel-item > img {
+    position: absolute;
+    top: 0;
+    left: 0;
+    min-width: 100%;
+    height: 32rem;
+  }
+  
+  .marketing .col-lg-4 {
+    margin-bottom: 1.5rem;
+    text-align: center;
+  }
+  
+  .marketing h2 {
+    font-weight: 400;
+  }
+  
+  .marketing .col-lg-4 p {
+    margin-right: 0.75rem;
+    margin-left: 0.75rem;
+  }
+  
+  .featurette-divider {
+    margin: 5rem 0;
+  }
+  
+  .featurette-heading {
+    font-weight: 300;
+    line-height: 1;
+    letter-spacing: -0.05rem;
+  }
+  
+  @media (min-width: 40em) {
+    .carousel-caption p {
+      margin-bottom: 1.25rem;
+      font-size: 1.25rem;
+      line-height: 1.4;
+    }
+  
+    .featurette-heading {
+      font-size: 50px;
+    }
+  }
+  
+  #searchApartmt {
+    align-items: center;
+    margin-left: 35%;
+    margin-right: 35%;
+  }
+  
+  @media (min-width: 62em) {
+    .featurette-heading {
+      margin-top: 7rem;
+    }
+  }
+  
+  #apartmtNav {
+    background-color: lightgray;
+    border-color: lightgray;
+    margin-top: -1%;
+    margin-bottom: -1%;
+  }
+  
+  h1 {
+    color: black;
+  }
+  
+  h5 {
+    color: grey;
+  }
+  
+  #seeReviews {
+    background-color: rgb(4, 122, 224);
+    color: white;
+  }
+  
+  #seeReviews:hover {
+    color: black;
+  }
+  
+  /*h2#carouselText1 {
+    color: solid black;
+    background-color: black;
+    border-radius: 10px;
+    margin-right: 80%;
+    text-align: center;
+    opacity: 0.5;
+  }*/
+  
+  img#opacQ,
+  img#opacB,
+  img#opacS {
+    opacity: 0.5;
+  }
+  
+  h1#homeText {
+    color: white;
+    background-color: black;
+    opacity: 0.6;
+    border-radius: 8px;
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-bottom: 10px;
+    padding-top: 5px;
+  }
+  
+  /*Apartment List page*/
+  
+  div.box {
+    width: 1150px;
+    /*height: 1150px;*/
+    background: rgb(240, 241, 242);
+    margin-left: 5%;
+    padding-right: 10px;
+    border-radius: 15px;
+  }
+  
+  #addAptmt {
+    float: right;
+    margin-top: -3.4%;
+    margin-right: 10%;
+  }
+  
+  #inputFieldAptmt {
+    border-radius: 40px;
+  }
+  
+  #searchApartmtList {
+    margin-right: 50%;
+    margin-left: 10%;
+  }
+  
+  .filters {
+    float: left;
+    margin-top: 4%;
+    margin-left: 4%;
+  }
+  
+  #circle1 {
+    width: 120px;
+    height: 120px;
+    background: black;
+    opacity: 0.6;
+    border-radius: 50%;
+    margin-left: 40%;
+    margin-top: -46%;
+  }
+  
+  #circle2 {
+    width: 120px;
+    height: 120px;
+    background: black;
+    opacity: 0.6;
+    border-radius: 50%;
+    margin-left: 75%;
+    margin-top: -50%;
+  }
+  
+  #circle3 {
+    width: 120px;
+    height: 120px;
+    background: black;
+    opacity: 0.6;
+    border-radius: 50%;
+    margin-left: 40%;
+    margin-top: -9%;
+  }
+  
+  .img1 {
+    width: 400px;
+    height: 400px;
+    border-radius: 50%;
+    align-items: center;
+    margin-left: 15%;
+    margin-top: 1%;
+    text-align: center;
+  }
+  
+  .img2 {
+    width: 400px;
+    height: 400px;
+    border-radius: 50%;
+    align-items: center;
+    margin-left: 65%;
+    margin-top: -35%;
+    text-align: center;
+  }
+  
+  .img3 {
+    width: 400px;
+    height: 400px;
+    border-radius: 50%;
+    align-items: center;
+    margin-left: 65%;
+    margin-top: -5%;
+    text-align: center;
+  }
+  
+  .img4 {
+    width: 400px;
+    height: 400px;
+    border-radius: 50%;
+    align-items: center;
+    margin-left: 35%;
+    margin-top: -35%;
+    text-align: center;
+  }
+  
+  .img5 {
+    width: 400px;
+    height: 400px;
+    border-radius: 50%;
+    align-items: center;
+    margin-left: 35%;
+    margin-top: -5%;
+    text-align: center;
+  }
+  
+  .img6 {
+    width: 400px;
+    height: 400px;
+    border-radius: 50%;
+    align-items: center;
+    margin-left: 65%;
+    margin-top: -35%;
+    text-align: center;
+  }
+  
+  #image1,
+  #image2,
+  #image3,
+  #image4,
+  #image5,
+  #image6 {
+    width: 120px;
+    height: 120px;
+    border-radius: 50%;
+    align-items: center;
+  }
+  .column {
+    float: left;
+    margin-left: 40px;
+    margin-bottom: 80px;
+    align-items: center;
+    text-align: center;
+  }
+  
+  .row {
+    display: table;
+    margin-top: 30px;
+  }
+  
+  .row1 {
+    display: table;
+  }
+  
+  .card-text {
+    margin: 1px;
+  }
+  
+  /*About page*/
+  div.about {
+    width: 1150px;
+    height: 250px;
+    background: grey;
+    opacity: 0.6;
+    margin-top: 9%;
+    margin-left: 5%;
+    padding-right: 10px;
+    box-shadow: rgba(0, 0, 0, 0.4) 0px 2px 4px,
+      rgba(0, 0, 0, 0.3) 0px 7px 13px -3px, rgba(0, 0, 0, 0.2) 0px -3px 0px inset;
+  }
+  
+  main#about {
+    font-family: "Trebuchet MS", sans-serif;
+  }
+  
+  #aboutPage {
+    color: black;
+    text-align: center;
+    padding-top: 6%;
+  }
+  
+  #mission {
+    color: black;
+    text-align: center;
+  }
+  
+  #card1 {
+    margin-left: 10%;
+    height: 270px;
+    margin-top: -5%;
+    box-shadow: rgba(0, 0, 0, 0.1) 0px 4px 12px;
+    overflow: scroll;
+  }
+  
+  #card2 {
+    margin-left: 40%;
+    height: 270px;
+    margin-top: -21%;
+    box-shadow: rgba(0, 0, 0, 0.1) 0px 4px 12px;
+    overflow: scroll;
+  }
+  
+  #card3 {
+    margin-left: 70%;
+    height: 270px;
+    margin-top: -21%;
+    box-shadow: rgba(0, 0, 0, 0.1) 0px 4px 12px;
+    overflow: scroll;
+  }
+  
+  /*reviews page*/
+  #leaveReview {
+    margin-bottom: -40%;
+    margin-left: 70%;
+  }
+  
+  #leaveReviewStar {
+    color: yellow;
+    fill: yellow;
+  }
+  
+  div.review1 {
+    width: 500px;
+    height: 150px;
+    background: rgb(240, 241, 242);
+    margin: 50px;
+    padding-right: 10px;
+    border-radius: 15px;
+    box-shadow: rgba(0, 0, 0, 0.12) 0px 1px 3px, rgba(0, 0, 0, 0.24) 0px 1px 2px;
+    overflow: scroll;
+  }
+  
+  div.review2 {
+    width: 500px;
+    height: 150px;
+    background: rgb(240, 241, 242);
+    margin-left: 5%;
+    padding-right: 10px;
+    border-radius: 15px;
+    margin-top: 5%;
+    box-shadow: rgba(0, 0, 0, 0.12) 0px 1px 3px, rgba(0, 0, 0, 0.24) 0px 1px 2px;
+    overflow: scroll;
+  }
+  
+  #userReview1 {
+    margin-left: 3%;
+    padding-top: 3%;
+  }
+  
+  strong {
+    font-size: 20px;
+  }
+  
+  span#aptmtName {
+    font-size: 10px;
+  }
+  
+  #reviewContent {
+    font-size: 13px;
+  }
+  
+  .modal-header {
+    background: darkgrey;
+    color: #fff;
+  }
+  
+  .checked {
+    color: rgb(227, 227, 73);
+  }
+  
+  #floatStar {
+    float: right;
+  }
+  
+  #reviewFilter {
+    margin-bottom: -5%;
+  }
+  
+  /*add apartment page*/
+  #addAptmtForm {
+    margin-top: 10px;
+    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+    width: 50%;
+    height: 895px;
+    padding-top: 0px;
+  }
